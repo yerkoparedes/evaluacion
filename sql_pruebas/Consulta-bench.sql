@@ -6,7 +6,7 @@
 --ImpagadoSolesAgencia: Considerar como Saldo de la deuda (Masa Impagados Distribuida). ¿Qué es ImpagadoSoles?
 --¿Está el producto en el bench o alguna codificación que lo represente?
 */
-commit
+commit;
 desc bench_archivos_bbva;
 SELECT * FROM bench_archivos_bbva;
 copy bench_archivos_bbva from 'C:\Users\yparedes\Documents\Postgres Desarrollos\BENCH_20181130_1.csv' delimiter ';' csv header;
